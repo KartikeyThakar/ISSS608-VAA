@@ -1,5 +1,5 @@
 ---
-title: "ISSS608-VAA_demo"
+title: "ISSS608-Visual Analytics & Application"
 ---
 
-**Welcome to ISSS608 Visual Analytics and Application!**
+**Welcome to my Visual Analytics and Application home page**
