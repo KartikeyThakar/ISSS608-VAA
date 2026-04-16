@@ -1,1 +1,44 @@
-/* css styles */
+/* Brand Colours */
+:root {
+  --cfi-navy: #1B2A4A;
+  --cfi-green: #00C853;
+  --cfi-light: #f4f6f9;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 3px solid #00C853;
+}
+
+/* TOC active link */
+#TOC a.active {
+  color: #00C853 !important;
+  font-weight: 600;
+  border-left: 3px solid #00C853;
+}
+
+/* Headings */
+h1, h2 {
+  color: #1B2A4A;
+}
+
+h2 {
+  border-bottom: 2px solid #00C853;
+  padding-bottom: 0.3rem;
+}
+
+/* Callout / tip boxes */
+.callout {
+  border-left-color: #00C853 !important;
+}
+
+/* Table header */
+thead {
+  background-color: #1B2A4A;
+  color: white;
+}
+
+/* Code chunk header accent */
+.sourceCode {
+  border-left: 3px solid #00C853;
+}

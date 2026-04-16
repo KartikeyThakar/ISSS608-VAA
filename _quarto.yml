@@ -1,26 +1,30 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "ISSS608-Visual Analytics & Application"
   navbar:
+    background: "#1B2A4A"
+    foreground: "#FFFFFF"
     left:
-    - text: "Hands-on Exercise"
-      menu: 
-      - text: "Hands-on Exrecise 1"
-        href: "HO_EX01.html"
-    right:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Hands-on Exercise"
+        menu:
+          - text: "Exercise 1"
+            href: hands-on-ex/hands-on-ex1.qmd
+      - text: "Take-home Exercise"
+        menu:
+          - text: "Exercise 1"
+            href: take-home-ex/take-home-ex1.qmd
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: flatly
     css: styles.css
     toc: true
-
 editor: visual
 
