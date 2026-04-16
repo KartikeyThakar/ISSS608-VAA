@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ISSS608-Visual Analytics & Application"
+  navbar:
+    background: "#1B2A4A"
+    foreground: "#FFFFFF"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Hands-on Exercise"
+        menu:
+          - text: "Hands on Exercise 1"
+            href: HO_EX01.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
