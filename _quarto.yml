@@ -4,7 +4,7 @@ project:
 
 website:
   title: "ISSS608-Visual Analytics & Application"
-  navbar:
+   navbar:
     background: "#1B2A4A"
     foreground: "#FFFFFF"
     left:
@@ -13,13 +13,7 @@ website:
       - text: "About"
         href: about.qmd
       - text: "Hands-on Exercise"
-        menu:
-          - text: "Exercise 1"
-            href: hands-on-ex/HO_EX01.qmd
-      - text: "Take-home Exercise"
-        menu:
-          - text: "Exercise 1"
-            href: take-home-ex/take-home-ex1.qmd
+        href: HO_EX01.qmd
 
 format:
   html:
